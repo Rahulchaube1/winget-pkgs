@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.28.0.schema.json
+
+PackageIdentifier: RahulChaube.RCRuntime
+PackageVersion: 1.4.0
+PackageLocale: en-US
+Publisher: Rahul Chaube
+PublisherUrl: https://github.com/Rahulchaube1
+PublisherSupportUrl: https://github.com/Rahulchaube1/rahulchaube-runtime/issues
+PackageName: RC Runtime
+PackageUrl: https://www.rahulchaube.space/
+License: MIT
+LicenseUrl: https://github.com/Rahulchaube1/rahulchaube-runtime/blob/v1.4.0/LICENSE.md
+ShortDescription: Standalone JavaScript and TypeScript runtime with a bundler, test runner and HTTP server.
+Tags:
+  - javascript
+  - runtime
+  - typescript
+ReleaseNotesUrl: https://github.com/Rahulchaube1/rahulchaube-runtime/releases/tag/v1.4.0
+ManifestType: defaultLocale
+ManifestVersion: 1.28.0
