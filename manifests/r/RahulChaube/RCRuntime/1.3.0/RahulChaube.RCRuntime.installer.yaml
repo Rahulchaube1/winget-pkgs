@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.28.0.schema.json
+
+PackageIdentifier: RahulChaube.RCRuntime
+PackageVersion: 1.3.0
+InstallerType: zip
+NestedInstallerType: portable
+NestedInstallerFiles:
+  - RelativeFilePath: bin\rc.exe
+    PortableCommandAlias: rc
+Installers:
+  - Architecture: x64
+    InstallerUrl: https://github.com/Rahulchaube1/rahulchaube-runtime/releases/download/v1.3.0/runtime-win-x64.zip
+    InstallerSha256: 5A9EC448FB4381A639537EEF2994486D27BCA7CCACD7903B36DBF90BCC05C35B
+ManifestType: installer
+ManifestVersion: 1.28.0
